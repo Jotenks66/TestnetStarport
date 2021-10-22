@@ -1,0 +1,11 @@
+syntax = "proto3";
+package GaupaLabs.gaupachain.gaupachain;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/GaupaLabs/gaupachain/x/gaupachain/types";
+
+// GenesisState defines the gaupachain module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}

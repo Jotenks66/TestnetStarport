@@ -1,0 +1,10 @@
+syntax = "proto3";
+package GaupaLabs.gaupachain.gaupachain;
+option go_package = "github.com/GaupaLabs/gaupachain/x/gaupachain/types";
+
+message Post {
+  string creator = 1;
+  uint64 id = 2;
+  string title = 3; 
+  string body = 4; 
+}
